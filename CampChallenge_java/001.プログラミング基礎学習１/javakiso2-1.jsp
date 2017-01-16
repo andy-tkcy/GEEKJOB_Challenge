@@ -17,7 +17,7 @@ switch(number){
     case 2:
         message="two";
         break;
-    case 3:
+    default:
         message="想定外";
         break;
 }
