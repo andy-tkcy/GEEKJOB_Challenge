@@ -11,17 +11,10 @@
 
 <%
 
-    ArrayList<String> aa =
-    new ArrayList<String>();
-    
-        aa.add("10");
-        aa.add("100");
-        aa.add("soeda");
-        aa.add("hayashi");
-        aa.add("-20");
-        aa.add("118");
-        aa.add("END");
+    String aa[]={"10","100","soeda","hayashi","-20","118","END"};
         
+   
+    out.print(Arrays.toString(aa));
 
 %>
 
