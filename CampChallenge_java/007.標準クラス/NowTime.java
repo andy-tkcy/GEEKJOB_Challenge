@@ -18,8 +18,6 @@ public class NowTime {
     
     Date date = new Date();
     
-    Calendar cal = Calendar.getInstance();
-    cal.setTime(date);
     
     SimpleDateFormat sdf = 
             new SimpleDateFormat("yyy年MM月dd日kk時mm分ss秒");
