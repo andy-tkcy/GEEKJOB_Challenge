@@ -22,7 +22,7 @@ public class NowTime {
     cal.setTime(date);
     
     SimpleDateFormat sdf = 
-            new SimpleDateFormat("yyy年mm月dd日hh時mm分ss秒");
+            new SimpleDateFormat("yyy年MM月dd日kk時mm分ss秒");
     
     String sdate = sdf.format(date);
     System.out.print(sdate);
