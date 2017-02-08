@@ -18,10 +18,12 @@ public class NowTime {
     
     Date date = new Date();
     
-    
+    //取得したいデータを指定(これを呼び出したいという命令)
     SimpleDateFormat sdf = 
-            new SimpleDateFormat("yyy年MM月dd日kk時mm分ss秒");
+            new SimpleDateFormat("yyyy年MM月dd日E曜日kk時mm分ss秒");
     
+    //指定されたデータを実際にdateから取ってくる
+    //取ってきたデータをsdateに代入
     String sdate = sdf.format(date);
     System.out.print(sdate);
     
